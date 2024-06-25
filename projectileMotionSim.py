@@ -14,14 +14,17 @@ def initialVelocity(v, theta):
     # Calculate the initial vertical velocity.
     vY = v * np.sin(theta_rad) # v_y = v * sin(theta)
 
+    return vX, vY
+
+
 # Total Time of Whole Journey Function
 # vY : Vertical velocity.
 # g  : Gravity
 def totalTime(vY, g):
     # time = (2 * v0 * sin(theta)) / |g|
     T = (2 * vY) / g
-    return T
 
+    return T
 
 
 # Max Height Function
