@@ -13,6 +13,8 @@
 
 ## Closer Look
 
+## Video Explanation
+
 ## Files
 * projectileMotionSim.py
   * Program that computes and visualizes the trajectory of a projectile based on initial launch parameters.
