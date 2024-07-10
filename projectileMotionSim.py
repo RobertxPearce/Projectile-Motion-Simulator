@@ -3,6 +3,7 @@
 
 import numpy as np
 
+
 # Initial Velocity Function
 # v : Initial speed of projectile.
 # m : Launch angle of projectile.
@@ -36,6 +37,7 @@ def max_height(vY, g):
 
     return maxH
 
+
 # Range Function
 # vX : Horizontal Velocity.
 # T : Total time of flight.
@@ -45,10 +47,16 @@ def total_range(vX, T):
 
     return range
 
+#---------------------------
+# *** Main Entry Point ***
+#---------------------------
+
 # Main function
 def main():
 
-    # *** VARIABLES ***
+    #---------------------------
+    #    *** VARIABLES ***
+    #---------------------------
 
     # Gravity Constant
     G = 9.81 # m/s^2
@@ -63,8 +71,9 @@ def main():
     maxHeight = 0       # Max height of projectile.
     range = 0           # Total range of projectile.
 
-
-    # *** INPUT ***
+    #---------------------------
+    #      *** INPUT ***
+    #---------------------------
 
     # Print line and title to look pretty.
     print("-" * 50)
@@ -76,7 +85,9 @@ def main():
     # Print line and title to look pretty.
     print("-" * 50)
 
-    # *** PROCESSING ***
+    #---------------------------
+    #   *** PROCESSING ***
+    #---------------------------
 
     # Calculate initial velocity.
     horizontalV, verticalV = initial_velocity(initialV, launchAngle)
@@ -90,7 +101,9 @@ def main():
     # Calculate range of projectile.
     range = total_range(verticalV, totalTime)
 
-    # *** OUTPUT ***
+    #---------------------------
+    #     *** OUTPUT ***
+    #---------------------------
 
     # Print results to terminal.
     print(f"Initial horizontal velocity: {horizontalV:.2f} m/s")
@@ -102,6 +115,11 @@ def main():
     # Print line and title to look pretty.
     print("-" * 50)
 
+
 # Call main function.
 if __name__ == "__main__":
     main()
+
+#---------------------------
+#       *** EOF ***
+#---------------------------
