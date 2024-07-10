@@ -3,7 +3,7 @@
 
 import numpy as np
 
-
+#--------------------------------
 # Initial Velocity Function
 # v : Initial speed of projectile.
 # m : Launch angle of projectile.
@@ -17,7 +17,7 @@ def initial_velocity(v, theta):
 
     return vX, vY
 
-
+#--------------------------------
 # Total Time of Whole Journey Function
 # vY : Vertical velocity.
 # g : Gravity
@@ -27,7 +27,7 @@ def total_time(vY, g):
 
     return T
 
-
+#--------------------------------
 # Max Height Function
 # vY : Vertical velocity.
 # g : Gravity
@@ -37,7 +37,7 @@ def max_height(vY, g):
 
     return maxH
 
-
+#--------------------------------
 # Range Function
 # vX : Horizontal Velocity.
 # T : Total time of flight.
@@ -47,10 +47,7 @@ def total_range(vX, T):
 
     return range
 
-#---------------------------
-# *** Main Entry Point ***
-#---------------------------
-
+#--------------------------------
 # Main function
 def main():
 
