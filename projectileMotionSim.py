@@ -19,7 +19,7 @@ def initialVelocity(v, theta):
 
 # Total Time of Whole Journey Function
 # vY : Vertical velocity.
-# g  : Gravity
+# g : Gravity
 def totalTime(vY, g):
     # time = (2 * v0 * sin(theta)) / |g|
     T = (2 * vY) / g
@@ -28,8 +28,13 @@ def totalTime(vY, g):
 
 
 # Max Height Function
+# vY : Vertical velocity.
+# g : Gravity
+def maxHeight():
+    # max height = (v_y^2) / (2 * g)
+    maxH = (vY ** 2) / (2 * g)
 
-
+    return maxH
 
 # Range Function
 
