@@ -1,17 +1,10 @@
 # Projectile-Motion-Simulator
 ### Video Demo:
-### Description:
-
-###
-
-
-###
-
+### Description: A Python program that calculates and visualizes the trajectory, time of flight, maximum height, and range of a projectile launched at a specified angle and velocity.
 
 ## Built With
 * Python
 * Numpy
-* Matplotlib
 
 ## Closer Look
 
