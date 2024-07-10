@@ -30,7 +30,7 @@ def totalTime(vY, g):
 # Max Height Function
 # vY : Vertical velocity.
 # g : Gravity
-def maxHeight():
+def maxHeight(vY, g):
     # max height = (v_y^2) / (2 * g)
     maxH = (vY ** 2) / (2 * g)
 
