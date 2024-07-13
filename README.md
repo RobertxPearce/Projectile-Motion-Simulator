@@ -10,7 +10,7 @@ A Python program that calculates and visualizes the trajectory, time of flight, 
 
 ## Files
 ### `projectileMotionSim.py`
-- Program that computes and visualizes the trajectory of a projectile based on initial launch parameters.
+- Program that computes and visualizes the trajectory, time of flight, maximum height, and range of a projectile launched at a specified angle and velocity.
   - `initial_velocity(v, theta)`: Computes the initial horizontal and vertical velocities.
   - `total_time(vY, g)`: Computes the total time of flight.
   - `max_height(vY, g)`: Computes the maximum height reached by the projectile.
