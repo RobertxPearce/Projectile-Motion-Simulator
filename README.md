@@ -10,14 +10,18 @@ A Python program that calculates and visualizes the trajectory, time of flight, 
 * Pytest
 
 ## Files
-* projectileMotionSim.py
+* `projectileMotionSim.py`
   * Program that computes and visualizes the trajectory of a projectile based on initial launch parameters.
   - `initial_velocity(v, theta)`: Computes the initial horizontal and vertical velocities.
   - `total_time(vY, g)`: Computes the total time of flight.
   - `max_height(vY, g)`: Computes the maximum height reached by the projectile.
   - `total_range(vX, T)`: Computes the total range of the projectile.
+  - `trajectory(v_x, v_y, g, interval=1000)`: Calculates the x and y coordinates of the projectile over time.
+  - `get_user_input()`: Prompts the user for initial velocity and launch angle, ensuring valid input.
+  - `print_solution(v_x, v_y, time, height, range)`: Formats and prints the answers to the terminal.
+  - `plot_trajectory(v_x, v_y, g)`: Plots the trajectory of the projectile.
   - `main()`: The main function that integrates the input, processing, and output.
-* test_projectileMotionSim.py
+* `test_projectileMotionSim.py`
   * Program for unit tests to verify the projectile motion calculations.
   * Tested using known calculations in an example from "the Physics Classroom" lesson 2.
   - `test_initial_velocity()`: Tests the `initial_velocity` function.
@@ -32,9 +36,10 @@ A Python program that calculates and visualizes the trajectory, time of flight, 
 
 
 ## Usage
-To run the simulator, execute the `project.py` script. The user will be prompted to enter the initial velocity and launch angle, and the program will display the calculated results.
+To run the simulator, execute `projectileMotionSim.py` in terminal. You will be prompted to enter the initial velocity and launch angle, and the program will display the calculated results and plot the trajectory.
 
-To run the tests, execute the following command in the terminal: python `projectileMotionSim.py`
+`python projectileMotionSim.py`
+`pytest test_projectileMotionSim.py`
 
 ## Resources
 * https://openstax.org/books/college-physics-2e/pages/3-4-projectile-motion#:~:text=Projectile%20motion%20is%20the%20motion,path%20is%20called%20its%20trajectory.
