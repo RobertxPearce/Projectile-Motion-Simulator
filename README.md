@@ -32,7 +32,7 @@ A Python program that calculates and visualizes the trajectory, time of flight, 
 ## Usage
 To run the simulator, execute the `project.py` script. The user will be prompted to enter the initial velocity and launch angle, and the program will display the calculated results.
 
-To run the tests, execute the following command in the terminal: python projectileMotionSim.py
+To run the tests, execute the following command in the terminal: python `projectileMotionSim.py`
 
 ## Resources
 * https://openstax.org/books/college-physics-2e/pages/3-4-projectile-motion#:~:text=Projectile%20motion%20is%20the%20motion,path%20is%20called%20its%20trajectory.
