@@ -1,8 +1,7 @@
 # Projectile Motion Simulator
 
 ## Description
-A Python program that calculates and visualizes the trajectory, time of flight, maximum height, and range of a projectile launched at a specified angle and velocity.
-
+A Python program that calculates and visualizes the trajectory, time of flight, maximum height, and range of a projectile launched at a specified angle and velocity. Program for unit tests to verify the projectile motion calculations. Tested using known calculations in examples from OpenStax, University Physics Volume 1.
 ## Built With
 * Python 3.9
 * Numpy
@@ -22,8 +21,6 @@ A Python program that calculates and visualizes the trajectory, time of flight, 
   - `plot_trajectory(v_x, v_y, g)`: Plots the trajectory of the projectile.
   - `main()`: The main function that integrates the input, processing, and output.
 * `test_projectileMotionSim.py`
-  * Program for unit tests to verify the projectile motion calculations.
-  * Tested using known calculations in examples from OpenStax, University Physics Volume 1.
   - `test_initial_velocity()`: Tests the `initial_velocity` function.
   - `test_total_time()`: Tests the `total_time` function.
   - `test_max_height()`: Tests the `max_height` function.
