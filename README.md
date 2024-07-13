@@ -30,6 +30,7 @@ A Python program that calculates and visualizes the trajectory, time of flight, 
   - `test_total_range()`: Tests the `total_range` function.
 
 ## Closer Look
+![projectile-motion-sim](https://github.com/user-attachments/assets/40ffd9e5-2bce-493f-ad65-42ca2f071ac2)
 
 
 ## Video Demo
