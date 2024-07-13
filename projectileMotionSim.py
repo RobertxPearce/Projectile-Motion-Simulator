@@ -19,9 +19,9 @@ def initial_velocity(v, theta):
     # Convert angle to radians (numpy uses rad).
     theta_rad = np.radians(theta)
     # Calculate the initial horizontal velocity.
-    vX = v * np.cos(theta_rad) # v_x = v * cos(theta)
+    vX = v * np.cos(theta_rad)  # v_x = v * cos(theta)
     # Calculate the initial vertical velocity.
-    vY = v * np.sin(theta_rad) # v_y = v * sin(theta)
+    vY = v * np.sin(theta_rad)  # v_y = v * sin(theta)
 
     return vX, vY
 
@@ -118,7 +118,7 @@ def get_user_input():
                 # Print error message.
                 raise ValueError("Initial velocity cannot be negative.")
             # Check if the launch angle is valid.
-            if (0 >= launchAngle >= 90):
+            if not (0 <= launchAngle <= 90):
                 # Print error message.
                 raise ValueError("Launch angle must be between 0 and 90 degrees.")
             
@@ -137,8 +137,9 @@ def print_solution(v_x, v_y, time, height, range):
     Parameters:
     v_x (float): Horizontal velocity.
     v_y (float): Vertical velocity.
-    g (float): Gravity.
-    interval (int): Number of time intervals for the calculation.
+    time (float): Total time of flight.
+    height (float): Maximum height.
+    range (float): Range of the projectile.
     """
     # Print results to terminal.
     print(f"Initial horizontal velocity: {v_x:.2f} m/s")
