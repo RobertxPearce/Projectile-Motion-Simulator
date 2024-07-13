@@ -1,4 +1,4 @@
-# Projectile-Motion-Simulator
+# Projectile Motion Simulator
 
 ## Description
 A Python program that calculates and visualizes the trajectory, time of flight, maximum height, and range of a projectile launched at a specified angle and velocity.
