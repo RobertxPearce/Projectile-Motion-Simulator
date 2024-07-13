@@ -22,10 +22,10 @@ A Python program that calculates and visualizes the trajectory, time of flight, 
   - `main()`: The main function that integrates the input, processing, and output.
 * `test_projectileMotionSim.py`
   - The test_project.py file contains automated tests for the key functions in project.py using pytest. These tests verify the correctness of the calculations against known examples from the OpenStax "University Physics Volume 1" textbook:
-  - `test_initial_velocity()`: Tests the `initial_velocity` function.
-  - `test_total_time()`: Tests the `total_time` function.
-  - `test_max_height()`: Tests the `max_height` function.
-  - `test_total_range()`: Tests the `total_range` function.
+    - `test_initial_velocity()`: Tests the `initial_velocity` function.
+    - `test_total_time()`: Tests the `total_time` function.
+    - `test_max_height()`: Tests the `max_height` function.
+    - `test_total_range()`: Tests the `total_range` function.
 
 ## Closer Look
 ![projectile-motion-sim](https://github.com/user-attachments/assets/40ffd9e5-2bce-493f-ad65-42ca2f071ac2)
