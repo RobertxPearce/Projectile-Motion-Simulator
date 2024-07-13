@@ -10,18 +10,18 @@ A Python program that calculates and visualizes the trajectory, time of flight, 
 
 ## Files
 * `projectileMotionSim.py`
-  * Program that computes and visualizes the trajectory of a projectile based on initial launch parameters.
-  - `initial_velocity(v, theta)`: Computes the initial horizontal and vertical velocities.
-  - `total_time(vY, g)`: Computes the total time of flight.
-  - `max_height(vY, g)`: Computes the maximum height reached by the projectile.
-  - `total_range(vX, T)`: Computes the total range of the projectile.
-  - `trajectory(v_x, v_y, g, interval=1000)`: Calculates the x and y coordinates of the projectile over time.
-  - `get_user_input()`: Prompts the user for initial velocity and launch angle, ensuring valid input.
-  - `print_solution(v_x, v_y, time, height, range)`: Formats and prints the answers to the terminal.
-  - `plot_trajectory(v_x, v_y, g)`: Plots the trajectory of the projectile.
-  - `main()`: The main function that integrates the input, processing, and output.
+  - Program that computes and visualizes the trajectory of a projectile based on initial launch parameters.
+    - `initial_velocity(v, theta)`: Computes the initial horizontal and vertical velocities.
+    - `total_time(vY, g)`: Computes the total time of flight.
+    - `max_height(vY, g)`: Computes the maximum height reached by the projectile.
+    - `total_range(vX, T)`: Computes the total range of the projectile.
+    - `trajectory(v_x, v_y, g, interval=1000)`: Calculates the x and y coordinates of the projectile over time.
+    - `get_user_input()`: Prompts the user for initial velocity and launch angle, ensuring valid input.
+    - `print_solution(v_x, v_y, time, height, range)`: Formats and prints the answers to the terminal.
+    - `plot_trajectory(v_x, v_y, g)`: Plots the trajectory of the projectile.
+    - `main()`: The main function that integrates the input, processing, and output.
 * `test_projectileMotionSim.py`
-  - The test_project.py file contains automated tests for the key functions in project.py using pytest. These tests verify the correctness of the calculations against known examples from the OpenStax "University Physics Volume 1" textbook:
+  - The test_project.py file contains automated tests for the key functions in project.py using pytest. These tests verify the correctness of the calculations against known examples from the OpenStax "University Physics Volume 1" textbook.
     - `test_initial_velocity()`: Tests the `initial_velocity` function.
     - `test_total_time()`: Tests the `total_time` function.
     - `test_max_height()`: Tests the `max_height` function.
