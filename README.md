@@ -40,6 +40,7 @@ A Python program that calculates and visualizes the trajectory, time of flight, 
 To run the simulator, execute `projectileMotionSim.py` in terminal. You will be prompted to enter the initial velocity and launch angle, and the program will display the calculated results and plot the trajectory.
 
 `python projectileMotionSim.py`
+
 `pytest test_projectileMotionSim.py`
 
 ## Resources
