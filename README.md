@@ -4,14 +4,10 @@
 A Python program that calculates and visualizes the trajectory, time of flight, maximum height, and range of a projectile launched at a specified angle and velocity.
 
 ## Built With
-* Python
+* Python 3.9
 * Numpy
 * Matplotlib
 * Pytest
-
-## Closer Look
-
-## Video Demo
 
 ## Files
 * projectileMotionSim.py
@@ -28,6 +24,12 @@ A Python program that calculates and visualizes the trajectory, time of flight, 
   - `test_total_time()`: Tests the `total_time` function.
   - `test_max_height()`: Tests the `max_height` function.
   - `test_total_range()`: Tests the `total_range` function.
+
+## Closer Look
+
+
+## Video Demo
+
 
 ## Usage
 To run the simulator, execute the `project.py` script. The user will be prompted to enter the initial velocity and launch angle, and the program will display the calculated results.
