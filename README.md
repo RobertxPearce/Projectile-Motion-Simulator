@@ -1,7 +1,10 @@
 # Projectile Motion Simulator
 
 ## Description
-A Python program that calculates and visualizes the trajectory, time of flight, maximum height, and range of a projectile launched at a specified angle and velocity. Program for unit tests to verify the projectile motion calculations. Tested using known calculations in examples from OpenStax, University Physics Volume 1.
+A Python program that calculates and visualizes the trajectory, time of flight, maximum height, and range of a projectile launched at a specified angle and initial velocity. The program makes use of fundamental physics equations to perform these calculations using the Numpy library for calculations and the Matplotlib library for a visualization of the trajectory. 
+
+Also included are unit tests implemented using the Pytest framework. The unit tests use example problems from OpenStax's "University Physics Volume 1" to ensure accuracy and reliability.
+
 ## Built With
 * Python 3.9
 * Numpy
@@ -10,7 +13,7 @@ A Python program that calculates and visualizes the trajectory, time of flight, 
 
 ## Files
 ### `projectileMotionSim.py`
-- Program that computes and visualizes the trajectory, time of flight, maximum height, and range of a projectile launched at a specified angle and velocity.
+- Program that computes and visualizes the trajectory, time of flight, maximum height, and range of a projectile launched at a specified angle and initial velocity.
   - `initial_velocity(v, theta)`: Computes the initial horizontal and vertical velocities.
   - `total_time(vY, g)`: Computes the total time of flight.
   - `max_height(vY, g)`: Computes the maximum height reached by the projectile.
@@ -25,7 +28,6 @@ A Python program that calculates and visualizes the trajectory, time of flight, 
   - `test_initial_velocity()`: Tests the `initial_velocity` function.
   - `test_total_time()`: Tests the `total_time` function.
   - `test_max_height()`: Tests the `max_height` function.
-  - `test_total_range()`: Tests the `total_range` function.
 
 ## Closer Look
 ![projectile-motion-sim](https://github.com/user-attachments/assets/40ffd9e5-2bce-493f-ad65-42ca2f071ac2)
