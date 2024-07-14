@@ -33,7 +33,7 @@ Also included are unit tests implemented using the Pytest framework. The unit te
 ![projectile-motion-sim](https://github.com/user-attachments/assets/40ffd9e5-2bce-493f-ad65-42ca2f071ac2)
 
 
-## Video Demo
+### Video Demo
 https://youtu.be/kSCf7GNaRnU
 
 ## Usage
