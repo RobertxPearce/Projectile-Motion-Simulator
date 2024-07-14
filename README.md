@@ -22,7 +22,7 @@ Also included are unit tests implemented using the Pytest framework. The unit te
   - `get_user_input()`: Prompts the user for initial velocity and launch angle, ensuring valid input.
   - `print_solution(v_x, v_y, time, height, range)`: Formats and prints the answers to the terminal.
   - `plot_trajectory(v_x, v_y, g)`: Plots the trajectory of the projectile.
-  - `main()`: The main function that integrates the input, processing, and output.
+  - `main()`: The main function that combines the input, processing, and output.
 ### `test_projectileMotionSim.py`
 - Tests for the key functions in projectileMotionSim.py using pytest. These tests verify the correctness of the calculations against known examples from the OpenStax "University Physics Volume 1" textbook.
   - `test_initial_velocity()`: Tests the `initial_velocity` function.
