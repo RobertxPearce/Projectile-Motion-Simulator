@@ -57,11 +57,5 @@ def test_max_height():
     assert _max_height == 233
 
 
-# def test_total_range():
-#     """
-#     Example problem for total range:
-#     """
-
-
 if __name__ == "__main__":
     pytest.main()
