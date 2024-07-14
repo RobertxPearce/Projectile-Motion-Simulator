@@ -32,10 +32,6 @@ Also included are unit tests implemented using the Pytest framework. The unit te
 ## Closer Look
 ![projectile-motion-sim](https://github.com/user-attachments/assets/40ffd9e5-2bce-493f-ad65-42ca2f071ac2)
 
-
-### Video Demo
-https://youtu.be/kSCf7GNaRnU
-
 ## Usage
 To run the simulator, execute `projectileMotionSim.py` in terminal. You will be prompted to enter the initial velocity and launch angle, and the program will display the calculated results and plot the trajectory.
 
