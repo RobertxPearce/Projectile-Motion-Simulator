@@ -12,7 +12,7 @@ Also included are unit tests implemented using the Pytest framework. The unit te
 * Pytest
 
 ## Files
-### `projectileMotionSim.py`
+### projectileMotionSim.py
 - Program that computes and visualizes the trajectory, time of flight, maximum height, and range of a projectile launched at a specified angle and initial velocity.
   - `initial_velocity(v, theta)`: Computes the initial horizontal and vertical velocities.
   - `total_time(vY, g)`: Computes the total time of flight.
@@ -23,7 +23,7 @@ Also included are unit tests implemented using the Pytest framework. The unit te
   - `print_solution(v_x, v_y, time, height, range)`: Formats and prints the answers to the terminal.
   - `plot_trajectory(v_x, v_y, g)`: Plots the trajectory of the projectile.
   - `main()`: The main function that combines the input, processing, and output.
-### `test_projectileMotionSim.py`
+### test_projectileMotionSim.py
 - Tests for the key functions in projectileMotionSim.py using pytest. These tests verify the correctness of the calculations against known examples from the OpenStax "University Physics Volume 1" textbook.
   - `test_initial_velocity()`: Tests the `initial_velocity` function.
   - `test_total_time()`: Tests the `total_time` function.
@@ -37,10 +37,12 @@ https://youtu.be/kSCf7GNaRnU?si=JmcRXCaXSkn-ctGD
 
 ## Usage
 To run the simulator, execute `projectileMotionSim.py` in terminal. You will be prompted to enter the initial velocity and launch angle, and the program will display the calculated results and plot the trajectory.
-
-`python projectileMotionSim.py`
-
-`pytest test_projectileMotionSim.py`
+```bash
+python projectileMotionSim.py
+```
+```bash
+pytest test_projectileMotionSim.py
+```
 
 ## Resources
 * https://openstax.org/books/university-physics-volume-1/pages/1-introduction
